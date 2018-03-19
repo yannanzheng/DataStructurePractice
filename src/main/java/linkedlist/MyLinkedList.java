@@ -21,8 +21,8 @@ public class MyLinkedList {
         tmp.next = newNode;
     }
 
-    public Boolean deleteNode(int index){
-        if (index<1||index>length()) {
+    public boolean deleteNode(int index){
+        if (index < 1 || index > length()) {
             return false;
         }
 
